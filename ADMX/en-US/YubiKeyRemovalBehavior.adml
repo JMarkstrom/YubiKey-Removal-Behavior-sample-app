@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+****************************************************************************
+* DISCLAIMER: Unless required by applicable law or agreed to in writing, 
+* software distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+****************************************************************************
+-->
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+  <displayName>enter display name here</displayName>
+  <description>enter description here</description>
+  <resources>
+    <stringTable>
+		<string id="Logon">Logon</string>
+      <string id="LockWorkstationOnYubiKeyRemoval">YubiKey removal behavior</string>
+      <string id="LockWorkstationOnYubiKeyRemoval_Help">This policy setting allows you to control whether the workstation should lock if a YubiKey is removed.
+      
+If you enable this policy setting or don't configure this policy setting, the user's workstation will lock on removal of a YubiKey.
+
+If you disable this policy setting, Windows default behavior is observed (nothing happens on YubiKey removal).
+
+NOTE: For the setting to take effect you will need to also install the 'YubiKey Removal Behavior' tool on target systems.
+
+</string>
+    </stringTable>
+  </resources>
+</policyDefinitionResources>
